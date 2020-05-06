@@ -40,7 +40,7 @@ export const Auth0Provider = ({
       setLoading(false);
     };
     initAuth0();
-    // eslint-disable-next-line - pay complain about empty array.  
+    // eslint-disable-next-line - eslint may complain about empty array.
     // Empty array is telling useEffect to start on componentDidMount
   }, []);
 
